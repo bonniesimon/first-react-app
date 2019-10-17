@@ -1,0 +1,29 @@
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+} 
+
+.nav ul {
+    list-style-type: none;
+}
+
+
+.nav{
+    height: 9.5vh;
+    background-color: #172121;
+    color: #e5d0cc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav .logo{
+    flex-basis: 40%;
+}
+.nav ul {
+    flex-basis: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
